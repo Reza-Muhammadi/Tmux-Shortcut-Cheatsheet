@@ -8,53 +8,54 @@ Terminal Multiplexer
 ` $ tmux `
 
 ## Some Tmux Features & Shortcuts
-Split Vertically
+### Split Vertically
 ` Ctrl + b + % `
-Split Horizontally
+### Split Horizontally
 ` Ctrl + b + " `
-Show Time
+### Show Time
 ` Ctrl + b + t `
-Move between Panes
+### Move between Panes
 ` Ctrl + b + Arrow-keys `
-Zoom In/Out
+### Zoom In/Out
 ` Ctrl + b + z `
-Create a new terminal window
+### Create a new terminal window
 ` Ctrl + b + c `
-Move between Windows/Tabs
+### Move between Windows/Tabs
 ` Ctrl + b + [Shell-Number (which is written bottom the page)] `
-Detach from a Tmux session
+### Detach from a Tmux session
 ` Ctrl + b + d `
-Kill a Window(Tab)
+### Kill a Window(Tab)
 ` Ctrl + b + & `
-Kill a Pane
+### Kill a Pane
 ` Ctrl + b + x `
-Scroll
+### Scroll
 ` Ctrl + b + [Page up/down keys] `
-Exit from Scroll mode
+#### Exit from Scroll mode
 ` q `
-Search on Scroll mode
+#### Search on Scroll mode
 ` Ctrl + s `
-Change panes side
+### Change panes side
 To Left: ` Ctrl + b + { `
 To Right: ` Ctrl + b + } `
-Show Windows List
+### Show Windows List
 ` Ctrl + b + s `
-Tmux Command mode
+### Tmux Command mode
 ` Ctrl + b + : `
-Help
+### Help
 ` Ctrl + b + ? `
-Sychronize Panes
-1. Go to Command mode
+### Sychronize Panes
+1. Go to Command mode:
+` Ctrl + b + : `
 2. Write below command:
 ` setw synchronize-pane on/off ` 
-View list of active Tmux sessions
+### View list of active Tmux sessions
 ` $ tmux ls `
-Attach to a session
+### Attach to a session
 ` $ tmux attach -t [session-number] `
-Kill a session 
+### Kill a session 
 ` $ tmux kill-session [session-number] `
-Create a session with a name
+### Create a session with a name
 ` $ tmux new -s [session-name] `
 ` $ tmux new -s ubuntu `
-Use `exit` command to exit from panes.
+### Use `exit` command to exit from panes.
 
