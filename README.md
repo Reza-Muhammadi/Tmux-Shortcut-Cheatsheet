@@ -56,7 +56,7 @@ Terminal Multiplexer
 ` $ tmux kill-session [session-number] `
 ### Create a session with a name
 ` $ tmux new -s [session-name] `
-` $ tmux new -s ubuntu `
+> ` $ tmux new -s ubuntu `
 
 ### Use `exit` command to exit from panes.
 
