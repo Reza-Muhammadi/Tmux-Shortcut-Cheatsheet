@@ -35,8 +35,8 @@ Terminal Multiplexer
 #### Search on Scroll mode
 ` Ctrl + s `
 ### Change panes side
-To Left: ` Ctrl + b + { `
-To Right: ` Ctrl + b + } `
+#### To Left: ` Ctrl + b + { `
+#### To Right: ` Ctrl + b + } `
 ### Show Windows List
 ` Ctrl + b + s `
 ### Tmux Command mode
@@ -57,5 +57,6 @@ To Right: ` Ctrl + b + } `
 ### Create a session with a name
 ` $ tmux new -s [session-name] `
 ` $ tmux new -s ubuntu `
+
 ### Use `exit` command to exit from panes.
 
