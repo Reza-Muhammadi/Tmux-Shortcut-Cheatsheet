@@ -46,7 +46,7 @@ Terminal Multiplexer
 ### Sychronize Panes
 1. Go to Command mode:
 ` Ctrl + b + : `
-2. Write below command:
+2. Set synchronize value:
 ` setw synchronize-pane on/off ` 
 ### View list of active Tmux sessions
 ` $ tmux ls `
